@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Follow Me , Go 浪～</title>
+    <style type="text/css">
+    html {
+        height: 100%;
+    }
+    
+    body {
+        height: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        color: #AD0711;
+    }
+    
+    .content {
+        /*visibility: hidden;*/
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        font-family: edo;
+        font-size: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 15px 10px 10px gray;
+    }
+    
+    a:hover,
+    a:active {}
+    
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: #AD0711;
+    }
+    
+    .bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .bottom ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        /*justify-content: space-around;*/
+    }
+    
+    .bottom li:last-child {
+        border-right: none;
+    }
+    
+    .bottom li {
+        /*width:100%;*/
+        flex-grow: 1;
+        border-right: solid 1px gray;
+    }
+    
+    .bottom a {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="top">
+    </section>
+    <section class="content">
+        <a href="http://www.54traveler.com" target="_blank">Say<br>Hello</a>
+    </section>
+    <section class="bottom">
+        <div class="nav">
+            <ul>
+                <li><a href="#">iTravel</a></li>
+                <li><a href="#">iLab</a></li>
+                <li><a href="#">iUrbex</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
