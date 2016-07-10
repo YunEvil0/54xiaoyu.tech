@@ -74,7 +74,7 @@ html {
         flex-grow: 1;
     }
     
-    .nav li span {
+    .nav-selected-tab {
         padding: 10px 0;
         border-bottom: solid 2px;
     }
@@ -83,7 +83,7 @@ html {
         background-color: rgb(32, 34, 43);
         margin: 0;
         padding: 10px 16px;
-        height:50px;
+        height:20px;
     }
     
     .search input {
@@ -119,23 +119,19 @@ html {
     }
     
     .list div {
-        display: flex;
         margin: 5px 16px;
         border-left: 3px solid #AD0711;
         padding: 10px 10px;
         height: 50px;
         width: 100%;
+        line-height: 1.5em;
     }
 
-    .border-color {
-
+    .title {
+        font-size: 16px;
     }
     
-    .list atitle {
-        font-size: 20px;
-    }
-    
-    .list acontent {
+    .content {
         font-size: 14px;
         color: #787878;
     }
